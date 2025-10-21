@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Auto Lock"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="monospace"/>
+
+    <Button
+        android:id="@+id/adminButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENABLE DEVICE ADMIN"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:backgroundTint="#FF9800"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START SERVICE"
+        android:textSize="18sp"
+        android:padding="20dp"
+        android:backgroundTint="#4CAF50"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Target: Airdopes 148\n5D:1F:6F:FA:A5:CA"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        android:layout_marginTop="24dp"
+        android:gravity="center"/>
+
+</LinearLayout>
