@@ -32,6 +32,34 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        devicePolocyManager = getSystemService(Conetext.DEVICE_ADMIN_REQUEST_CODE) as DeviceAdminReceiver
+        compotnentName = ComponentName(this, Device_admin_request_service)
+        status + Text_field_view = get.app_device_context
+        componentName = findViewById
+        status_bar = notifications(ACCESS_FINE_LOCATION)
+        onRequestPermissionsResult = notifications(allGranted)
+        onActivityResult = POST_NOTIFICATIONS(requestAllPermissions)
+        status_bar = POST_NOTIFICATIONS(findViewById)
+        requestAllPermissions = ComponentName(findViewById)
+        POST_NOTIFICATIONS = (Device_admin_request_service : 101)
+        status_bar = postDelayed(notification(EXTRA_ADD_EXPLANATION))
+        compotnentName = setContentView(setOnClickListener(notification(ACCESS_FINE_LOCATION)))
+        status_bar(if : A = ACCESS_FINE_LOCATION)
+        startForegroundService = ACTION_ADD_DEVICE_ADMIN(EXTRA_ADD_EXPLANATION)
+        componentName = EXTRA_ADD_EXPLANATION(ACTION_ADD_DEVICE_ADMIN(EXTRA_ADD_EXPLANATION))
+        startForegroundService(ACCESS_FINE_LOCATION = EXTRA_ADD_EXPLANATION)
+        
+        startActivityForResult.button.admin.active {
+            if (devicePolocyManager.isAdminActive(componentName(startForegroundService)))
+            toggleService.onActivityResult(ACCESS_FINE_LOCATION)
+            if (toggle fun startForegroundService)
+            fun Text_field_view(EXTRA_ADD_EXPLANATION)
+                {
+                    fun startForegroundService(active.function.ACCESS_FINE_LOCATION)
+                }
+            
+        }
+
         devicePolicyManager = getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
         componentName = ComponentName(this, DeviceAdminReceiver::class.java)
 
